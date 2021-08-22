@@ -23,6 +23,7 @@ else:
 f = open('index.html', 'w')
 f.write('<!DOCTYPE html><html><meta charset="UTF-8"><body>\n')
 f.write(msg + "\n")
+f.write(str(datetime.datetime.now()) + "\n")
 f.write("</body></html>\n")
 f.close()
 
