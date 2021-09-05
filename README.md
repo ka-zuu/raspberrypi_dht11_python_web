@@ -12,3 +12,9 @@ Pythonの簡易httpサーバで公開する(server.py)
 
 ## サーバ起動
 nohup python3 server.py &
+
+## OMAKE
+
+### Macのxbarでメニューバーに値を表示する
+`raspi-ondo.5m.sh`に実行権限を付与して、xbarに登録する
+↑で起動したサーバに、5分に1回温度を問い合わせして、メニューバーに表示する
