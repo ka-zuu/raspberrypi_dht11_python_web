@@ -11,7 +11,7 @@ Pythonの簡易httpサーバで公開する(server.py)
 `ln -s DHT11_Python/dht11`
 
 ## サーバ起動
-nohup python3 server.py &
+`nohup python3 server.py &`
 
 ## OMAKE
 
