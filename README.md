@@ -10,4 +10,5 @@ Pythonの簡易httpサーバで公開する(server.py)
 ### ライブラリをimportするために、リンクを貼る
 `ln -s DHT11_Python/dht11`
 
-
+## サーバ起動
+nohup python3 server.py &
